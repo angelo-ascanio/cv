@@ -1,0 +1,169 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Modified for: Angelo Ascanio
+% Strategy: Hybrid Mechanical/Automation Profile
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\setlength{\footskip}{4.08003pt}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[utf8]{inputenc} % Added for Spanish characters
+\usepackage[T1]{fontenc}    % Added for font encoding
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Angelo Ascanio} \\ \vspace{1pt}
+    Caracas, Venezuela $|$ +58 412 4151491 $|$ \href{mailto:angasc1995@gmail.com}{\underline{angasc1995@gmail.com}} \\
+    \href{https://linkedin.com/in/AngeloVzla}{\underline{linkedin.com/in/AngeloVzla}} $|$ 
+    \href{https://github.com/angelo-ascanio}{\underline{github.com/AngeloVzla}} % Update this if you have a GitHub
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad Central de Venezuela (UCV)}{Caracas, Venezuela}
+      {Mechanical Engineer (Ingeniero Mecánico)}{Dec. 2014 -- Dec. 2019}
+      \resumeItemListStart
+        \resumeItem{\textbf{Teaching Assistant (Preparador):} Selected for academic excellence to teach Fluid Mechanics \& Differential Equations.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {FONDONORMA}{Caracas, Venezuela}
+      {Process Improvement \& Automation Specialist}{March 2023 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Full-Stack Operations System:} Architected an end-to-end registration and tracking system for the \textit{"2025 Quality Forum"} (200+ attendees). Developed a \textbf{Flutter} mobile app and a \textbf{Google Apps Script} backend to validate administrative status against a real-time database.}
+        \resumeItem{\textbf{Workflow Automation:} Engineered a suite of interactive \textbf{AcroForm (PDF 1.7)} documents for client intake; integrated these with internal calculation engines to automate audit duration and pricing estimates, reducing manual entry errors by 40\%.}
+        \resumeItem{\textbf{Business Intelligence Tools:} Developed \textbf{VBA-powered} reporting dashboards to monitor 250+ active ISO certifications, implementing automated alerts for deadline compliance and data integrity validation.}
+        \resumeItem{\textbf{Performance Analytics:} Automated the Stakeholder Satisfaction workflow by linking Google Forms to a dynamic PDF generation engine, creating instant performance metrics for management review.}
+        \resumeItem{\textbf{ERP Development (Odoo):} Currently leading the design and coding of a custom \textbf{Odoo} module (Python/XML) to digitalize the entire certification lifecycle, migrating complex ISO workflows into a unified database.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Intenso Digital C.A. (Grupo Intenso)}{Caracas, Venezuela}
+      {Production \& Plant Engineer}{April 2021 -- Feb. 2023}
+      \resumeItemListStart
+        \resumeItem{\textbf{Plant Operations:} Served as the sole Engineer for an industrial facility with 50+ industrial machines; managed production planning, maintenance schedules, and QA departments.}
+        \resumeItem{\textbf{Maintenance Strategy:} Designed and implemented a 5-year \textbf{preventative maintenance} structure, significantly extending equipment lifespan and optimizing budget allocation for spare parts.}
+        \resumeItem{\textbf{Equipment Restoration:} Led the technical diagnosis, refurbishment, and reactivation of abandoned industrial equipment, successfully restoring lost production capacity without external capital expenditure.}
+        \resumeItem{\textbf{Quality Assurance:} Established a QC system tracking Non-Conformities (NC) to analyze production errors statistically, driving a continuous improvement culture (Kaizen).}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Technical Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Proprietary QR Engine \& Generator} $|$ \emph{Python, PyInstaller, Computer Vision}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a standalone Python executable for secure, offline QR generation, eliminating dependency on third-party web services to ensure strict data privacy.}
+            \resumeItem{Engineered a custom geometric module (\textbf{"Cross-Bar Module"}) by overriding the base \texttt{qrcode} library classes, blending circular and linear pathing for high-aesthetic industrial branding.}
+            \resumeItem{Optimized for local deployment, allowing non-technical staff to generate high-resolution, custom-branded codes without internet connectivity.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{ISO Certification Lifecycle Module} $|$ \emph{Odoo, Python, PostgreSQL, XML}}{}
+          \resumeItemListStart
+            \resumeItem{Architecting a custom ERP module to map the lifecycle of ISO certifications, automating workflow transitions from initial inquiry to final issuance.}
+            \resumeItem{Developing relational database models to track auditor assignments, expiry alerts, and compliance milestones.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Engineering \& Standards}{: ISO 9001:2015 (Internal Auditor), ISO 14001, ISO 45001, Process Optimization, Preventative Maintenance.} \\
+     \textbf{Development \& Automation}{: Python (Pandas, Odoo), VBA (Advanced/Macros), Google Apps Script, SQL, Flutter.} \\
+     \textbf{Digital Tools}{: PDF 1.7 AcroForms, Advanced Excel (Power Query), Git Version Control, ERP Implementation.} \\
+     \textbf{Languages}{: Spanish (Native), English (Professional Proficiency - B2/C1), Portuguese (Basic).}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
