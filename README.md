@@ -9,7 +9,7 @@ As a Mechanical Engineer transitioning into industrial automation and ERP develo
 - **High Integrity:** Professional typesetting that meets international engineering standards.
 
 ## 🛠️ Technical Profile
-- **Engineering:** Mechanical Engineering (UCV), ISO 9001/17021 Compliance, Process Optimization.
+- **Engineering:** Mechanical Engineering (UCV), ISO 9001/14001/17021/17065 Compliance, Process Optimization.
 - **Automation:** Python (Odoo), VBA, SQL, Google Apps Script.
 - **Documentation:** LaTeX, PDF 1.7 Architecture, Markdown.
 
