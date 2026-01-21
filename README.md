@@ -14,7 +14,9 @@ As a Mechanical Engineer transitioning into industrial automation and ERP develo
 - **Documentation:** LaTeX, PDF 1.7 Architecture, Markdown.
 
 ## 📄 View My CV
-You can view the latest version of my CV here: [Download PDF](PDF/2026-01-21/CV_Angelo_Ascanio_English.pdf)
+You can view the latest version of my CV here: 
+English: [Download PDF](PDF/2026-01-21/CV_Angelo_Ascanio_English.pdf)
+Español: [Download PDF](PDF/2026-01-21/CV_Angelo_Ascanio_Español.pdf)
 
 ---
 *“Bridging the gap between heavy industry and digital efficiency.”*
